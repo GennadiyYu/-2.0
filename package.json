@@ -1,0 +1,24 @@
+{
+  "name": "agency-exec-ai-bot",
+  "version": "1.0.0",
+  "description": "Telegram AI assistant for a digital agency executive with file analysis",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "axios": "^1.8.4",
+    "csv-parse": "^5.5.6",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "mammoth": "^1.8.1",
+    "openai": "^4.104.0",
+    "pdf-parse": "^1.1.1",
+    "xlsx": "^0.18.5"
+  }
+}
